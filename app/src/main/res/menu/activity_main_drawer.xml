@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+
+
+        <item
+            android:id="@+id/nav_registered_num"
+            android:icon="@drawable/ic_baseline_mobile_friendly_24"
+            android:title="@string/menu_registered_num" />
+
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="@string/menu_orders" />
+
+
+        <item
+            android:id="@+id/nav_manage_payment"
+            android:icon="@drawable/ic_baseline_payment_24"
+            android:title="@string/menu_manage_payment" />
+
+        <item
+            android:id="@+id/nav_refer_and_earn_offers"
+            android:icon="@drawable/ic_baseline_local_offer_24"
+            android:title="@string/menu_refer_and_earn_offers" />
+
+        <item
+            android:id="@+id/nav_suggestions"
+            android:icon="@drawable/ic_baseline_emoji_people_24"
+            android:title="@string/menu_suggestions" />
+
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:icon="@drawable/ic_baseline_privacy_tip_24"
+            android:title="@string/menu_privacy_policy" />
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_baseline_domain_24"
+            android:title="@string/menu_about_us" />
+
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_baseline_person_off_24"
+            android:title="@string/menu_sign_out" />
+    </group>
+
+
+
+</menu>
